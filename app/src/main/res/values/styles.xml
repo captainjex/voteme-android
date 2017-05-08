@@ -21,14 +21,35 @@
     <style name="VoteLayout">
         <item name="android:padding">10dp</item>
     </style>
+
+
     <style name="VoteFont">
         <item name="android:textColor">@color/colorDarkGrey</item>
     </style>
+
 
     <style name="VoteButton">
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:textColor">#fff</item>
         <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="PilihanVote">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@color/colorDarkGrey</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NamaVote">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">10pt</item>
+    </style>
+
+    <style name="NamaVote.waktu">
+        <item name="android:textSize">8pt</item>
     </style>
 
 </resources>
