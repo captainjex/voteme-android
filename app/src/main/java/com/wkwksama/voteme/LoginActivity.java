@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Button btnLogin = (Button)this.findViewById(R.id.btn_login);
+        Button btnLogin = (Button)this.findViewById(R.id.btn_signin);
         btnLogin.setOnClickListener(new BtnLoginListener());
     }
 }
