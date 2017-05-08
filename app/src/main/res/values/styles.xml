@@ -17,4 +17,18 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!--style custom sendiri-->
+    <style name="VoteLayout">
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="VoteFont">
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
+
+    <style name="VoteButton">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
 </resources>

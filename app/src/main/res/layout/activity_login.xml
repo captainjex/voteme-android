@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/VoteLayout"
     android:orientation="vertical"
     tools:context="com.wkwksama.voteme.LoginActivity">
 
     <TextView
+        style="@style/VoteFont"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20pt"
@@ -31,12 +33,14 @@
         android:inputType="textPassword"/>
 
     <Button
+        style="@style/VoteButton"
         android:id="@+id/btn_signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign-in"/>
 
     <Button
+        style="@style/VoteButton"
         android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
